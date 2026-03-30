@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="helper.css">
+
+
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <div class="topbar py-2">
+        <div class="container d-flex justify-content-end gap-4">
+            <a href="#" class="text-decoration-none text-dark">Events</a>
+            <a href="#" class="text-decoration-none text-dark">Contact us</a>
+
+            <ul class="mb-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="https://flagcdn.com/w20/gb.png" width="20"> ENG
+                    </a>
+                    <ul class="dropdown-menu px-4 mb-0">
+                        <li>
+                            <a href="">
+                                <img src="https://flagcdn.com/w20/gb.png" width="20"> ENG
+                            </a>
+                        </li>
+                        <li><img src="https://flagcdn.com/w20/gb.png" width="20"> IND</li>
+                        <li><img src="https://flagcdn.com/w20/gb.png" width="20"> USA</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="bg-light navbar navbar-expand-lg  ">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="logo">
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+
+                <ul class="navbar-nav ms-auto me-3 gap-lg-2">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Areas of work
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Products & Solutions
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Our Platform
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Ecosystem
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Resources
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Search -->
+                <div>
+                    <i class="bi bi-search fs-5"></i>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light ">
+        <div class="bg-banner py-5">
+
+            <div class="container py-md-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="fs-36 lh-40 fw-300">20 years of digital transformation in public service delivery</p>
+
+                        <p class="fs-56 lh-40 fw-600 mt-3 mb-4">It's possible.</p>
+
+                        <div>
+                            <p class="fw-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                corrupti,
+                                praesentum
+                                ducimus dolores corporis aut voluptate! Saepe, aspernatur suscipit autem ducimus et
+                                dolores
+                                fugit quo quasi obcaecati magni eveniet officia!</p>
+                        </div>
+                        <div class="mt-5 d-flex gap-3">
+                            <button class="btn-cyan rounded-pill text-white fw-300 fs-14">Our Approach</button>
+                            <button class="btn-outline rounded-pill text-color-01 fw-300 fs-14">Our Impact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="bg-counting py-5">
+        <div class="container py-md-5 z-index-for-black-shade">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="counting text-white fw-300">1,000,000,100+</p>
+                </div>
+                <div class="col-md-4 align-self-center">
+                    <p class="text-white ">
+                        Citizens availing public services through eGov's Digital Public Goods (DPG)
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-white">1.1 Billion</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-white">1.1 Billion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

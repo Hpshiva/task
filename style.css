@@ -1,0 +1,92 @@
+.topbar {
+    background: #e8f0f4;
+    font-size: 14px;
+}
+
+.logo {
+    height: 45px;
+}
+
+p {
+    color: #272F6E;
+    margin-bottom: 0rem;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: unset !important
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-cyan {
+    padding: .7rem 1.5rem;
+    border: none;
+
+    background-color: #4BB5C3;
+}
+
+.btn-outline {
+    padding: .7rem 1.5rem;
+    border: .5px solid #272F6E;
+    background-color: unset;
+}
+
+.bg-light {
+    /* background-color: #f8f8f8; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/bg-texture.png');
+}
+
+.bg-banner {
+    position: relative;
+    background-size: 80% !important;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/bg-banner.png');
+}
+
+.bg-counting {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/bg-second.jpeg');
+}
+
+.bg-counting::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.counting {
+    font-size: 6rem;
+}
+
+.z-index-for-black-shade {
+    position: relative;
+    z-index: 3;
+}
+
+.text-white {
+    color: white !important;
+}
