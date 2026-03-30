@@ -90,3 +90,10 @@ ul {
 .text-white {
     color: white !important;
 }
+
+.border-card {
+    background-color: #fff;
+    border-radius: 15px;
+
+    box-shadow: 0 0 19.23px 0 #00000012;
+}
