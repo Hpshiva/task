@@ -263,10 +263,23 @@ ul {
   bottom: 0px;
 }
 
+@media (max-width: 768px) {
+  .bg-banner {
+    background-image: none;
+  }
+
+  .fs-sm-30 {
+    font-size: 30px;
+  }
+
+}
+
 @media (min-width: 768px) {
   .line-break {
     display: block;
   }
+
+
 }
 
 .form-control {

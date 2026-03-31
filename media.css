@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .bg-banner {
+        background-image: none;
+    }
+
+    .fs-sm-30 {
+        font-size: 30px;
+    }
+
+    .fs-sm-12 {
+        font-size: 12px;
+    }
+
+    .hero-section {
+        height: 100%;
+    }
+
+    .justify-content-sm-center {
+        justify-content: center;
+    }
+
+    .girl-mockup {
+        margin-top: -25px;
+        position: relative;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .line-break {
+        display: block;
+    }
+
+
+}
