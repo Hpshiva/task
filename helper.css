@@ -6,6 +6,7 @@ html {
 /* ===============================
    font sizes
    =============================== */
+
 .fs-16 {
   font-size: 16px;
 }
@@ -100,6 +101,7 @@ html {
 .fw-200 {
   font-weight: 200;
 }
+
 .fw-300 {
   font-weight: 300;
 }
@@ -130,6 +132,7 @@ html {
 .text-color-01 {
   color: #272f6e;
 }
+
 .text-color-02 {
   color: #0e165d;
 }
@@ -159,13 +162,22 @@ html {
 .lh-44 {
   line-height: 44px;
 }
+
 .lh-normal {
   line-height: normal;
 }
 
 /* ===============================
-  Border radius
+  Background
    =============================== */
 .background-size-cover {
   background-size: cover;
+}
+
+.bg-color-1 {
+  background-color: #E6F3FB;
+}
+
+.bg-color-2 {
+  background-color: #1477BD;
 }
